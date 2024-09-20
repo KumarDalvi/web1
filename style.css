@@ -1,0 +1,377 @@
+*{
+     
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       
+}
+li a{
+text-decoration: none;
+color: black;
+}
+.mainmenu{
+    color: black;
+    margin-top: 30px;  
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.nav-item:hover .submenu{
+    display: inline-block;
+    /* background-color: hsl(0, 0%, 98%); */
+    text-decoration: none;
+    
+}
+
+.mainmenu li a:hover{
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+    
+}
+.mainmenu li{ 
+    margin-left: 10px;
+    text-decoration: none;
+}
+.submenu{
+    height: 120px;
+    width: 300px;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: white;
+    text-decoration: none;
+    
+}
+.subsubmenu{
+    width: 350px;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    /* background-color: whitesmoke; */
+    color: white;
+    text-decoration: none;
+    z-index: 3  ;
+}
+.subsubmenu{
+    position: absolute;
+    left: 100px;
+}
+.submenu li:hover .subsubmenu{
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.submenu4{
+    background-color: hsl(186, 80%, 23%);
+    color: white;
+}
+.icons{
+    font-size: 40px;
+    /* margin-left: 80px; */
+    margin-top: 10px;
+    
+}
+.mid-head-box{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    box-sizing: border-box;
+}
+.heading{
+width: 100%;
+    height: 400px;
+    background-image: url('https://www.satalkarlotus.com/wp-content/uploads/2023/02/imgpsh_fullsize_anim.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.breadcrumb{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+@media (max-width:768px) {
+    .breadcrumb{
+        margin-left: 180px;
+        margin-top: 100px;
+    }
+    .d1{
+        text-align: center;
+    }
+    .para{
+        line-height: 0px;
+    }
+}
+
+
+.send_msg_form{
+    background-image: url('https://www.satalkarlotus.com/wp-content/uploads/2023/02/istockphoto-1171778559-612x612-1.jpg');
+    background-size: 100% 100%;
+}
+.send_msg_form_input{
+    width: 50%;
+}
+.form-area{
+    padding: 20px;
+}
+.map_location iframe{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 50px;
+    /* z-index: 5; */
+}
+.foot_icons{
+    font-size: 24px;
+    margin-top: 20px;
+    inline-size: 50px;
+    margin-left: 20px;
+}
+.copyrights{
+    background-color: hsl(186, 80%, 23%);
+    height: 50px;
+
+}
+.footer_opyrights{
+    font-weight: bold;
+   
+}
+.pic_box{
+    border: 2px solid hsl(191, 42%, 49%);
+    box-shadow: 0px 0px 0px 0px hsl(191, 42%, 49%);
+    box-sizing: border-box;
+}
+.para{
+
+
+    margin-left: 40px;
+    margin-right: 100px;
+}
+@media (max-width:768px) {
+
+    .para{
+        line-height:30px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+.box_pic{
+    height: 100px;
+    margin: 50px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 2px hsl(209, 75%, 30%);
+ 
+}
+
+.bottom_border{
+    border-bottom: 3px dotted black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mid_border{
+
+    border-right: 3px dotted black;
+}
+.top_border{
+    border-top: 3px dotted black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-1{
+    float: left;
+    text-align: left;
+}
+.hosp_para{
+
+    line-height: 30px;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.box-cashless_facilities{
+    border: 10px solid hsl(186, 80%, 23%);
+    border-radius: 50px;
+    background-color: hsl(172, 29%, 95%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.our_vision{
+    border-right: 10px solid hsl(191, 46%, 50%);
+    box-sizing: border-box;
+    color: hsl(191, 46%, 50%);
+}
+.our_mission{
+    border-left: 10px solid hsl(191, 46%, 50%);
+    box-sizing: border-box;
+    color: hsl(191, 46%, 50%);
+}
+.hosp_para2{
+    float: right;
+    text-align: justify ;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.our_mission_border{
+    border-right: 2px solid hsl(191, 46%, 50%);
+}
+
+.hosp_para3{
+    float: left;
+    text-align: justify ;
+    /* margin-left: 100px; */
+    margin-right: 50px;
+}
+.stars{
+    font-size: 24px;
+    color: hsl(45, 95%, 49%);
+    text-align: center;
+}
+.small_stars{
+    font-size: 14px;
+    color: hsl(45, 95%, 49%);
+    text-align: left;
+}
+.reviews{
+    background-color: hsl(0, 0%, 94%);
+    padding: 15px;
+}
+.bg_card{
+    background-color: hsl(186, 41%, 79%);
+    border: 15px solid hsl(186, 41%, 79%);
+}
+.card-img-top:hover{
+    transform: scale(1.05);
+
+}
+.card1{
+    overflow: hidden;
+    
+}
+.card2{
+    overflow: hidden;
+}
+
+@media (max-width:768px) {
+
+    .card1{
+        margin-left: 60px;
+    }
+    .card_box{
+        margin-bottom: 10px;
+    }
+    .our_vision{
+        border: none;
+     
+    }
+    .our_mission{
+        border: none;
+    }
+    .our_mission_border{
+        border: none;
+    }
+    .hosp_para3{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .reviews{
+    box-sizing: border-box !important;
+    }
+
+}
+.card_group{
+    margin-left: 50px;
+}
+.card1{
+    /* border: 2px solid black !important; */
+    outline: 3px !important;
+    outline-offset: 10px !important;
+    outline-style: solid !important;
+    outline-width: 3px;
+}
+@media (max-width:768px) {
+    .card1{
+        margin: 0;
+   
+    }
+    .card_group{
+        align-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+    }
+    .mid-head-box{
+        border: none;
+    }
+}
+.exp_doct{
+    height: 300px;
+  width: 80%;
+    box-shadow: 10px 10px 0px 0px hsl(191, 42%, 49%);
+    border-radius: 20px;
+}
+.exp_doct_desc{
+    border: 2px dashed black;
+    margin-right: -50px;
+    box-sizing: border-box;
+}
+@media (max-width:768px) {
+.exp_doc_box{
+margin-left: 50px !important;
+
+}
+.exp_doct{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+}
+.yt_video_border{
+    /* border: 3px solid hsl(186, 80%, 23%); */
+    outline: 3px solid hsl(186, 80%, 23%);
+    outline-offset: 5px;
+}
+.imgs {
+    border: 1px solid black;
+}
+@media (max-width:768px) {
+.imgs div{
+align-content: center !important;
+}
+.imgs div img{
+    width: 100%;
+    padding: 20%;
+}
+.map_location iframe{
+    position: relative;
+  margin: 5%;
+    width: 90%;
+}
+.para{
+    text-align: left;
+    margin: 5px;
+}
+}
+.gallery_imgs{
+    border: 2px solid hsl(186, 80%, 23%);
+    border-top-left-radius: 20px;
+    margin: 10px;
+}
+
+.pic_box{
+    box-shadow: 15px 10px 3px 2px hsl(191, 42%, 49%);
+padding-right: 20px;
+}
+.submenu4{
+    z-index: 10;
+    margin-left: 50px;
+}
+
+.dr_pic{
+    border: 3px solid hsl(191, 42%, 49%);
+    
+    box-shadow: 15px 10px 3px 2px hsl(191, 42%, 49%);
+}
+
+.card5{
+    background-color: hsl(186, 80%, 23%) !important;
+    color: white !important;
+}
